@@ -3,7 +3,7 @@
 	"id": "backrooms_infinite",
 	"version": "${version}",
 	"name": "Backrooms Infinite Engine",
-	"description": "Motor de generacion procedural infinita para la experiencia Backrooms.",
+	"description": "Infinite procedural generation engine for the Backrooms experience.",
 	"authors": [
 		"Me!"
 	],
@@ -16,10 +16,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.backrooms.engine.ExampleMod"
 		],
 		"client": [
-			"com.example.client.ExampleModClient"
+			"com.backrooms.engine.client.ExampleModClient"
 		]
 	},
 	"mixins": [
